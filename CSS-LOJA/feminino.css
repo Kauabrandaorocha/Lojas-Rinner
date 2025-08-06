@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    flex-direction: column;
+    line-height: 11px;
+}
+
+h1{
+    font-weight: 200;
+    color: brown;
+}
+
+span{
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: bisque;
+}
+
+a:hover{
+    color: brown;
+    transition: 0.2s all;
+}
+
+#botao{
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 8px; 
+}
+
+#botao:hover{
+    background-color: brown;
+    color: bisque;
+}
+
+.pesquisa{
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    max-width: 30%;
+}
+
+.pesquisa input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.pesquisa input::placeholder{
+    color: #999;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.categoria {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria h2{
+    color: rgb(175, 50, 50);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.subcategorias{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 7px;
+}
+
+.subcategorias li{
+    list-style: none;
+}
+
+.subcategorias li a{
+    display: inline-block;
+    padding: 8px 16px;
+    color: bisque;
+    text-decoration: none;
+    border: 1px solid bisque;
+    border-radius: 15px;
+    background-color: brown;
+}
+
+.subcategorias li a{
+    background-color: rgb(150, 41, 41);
+    transition: 0.3s;
+    transform: translateY(-1px);
+}
+
+.itens-roupas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+}
+.item {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.item img:hover{
+    transform: translateY(-2px);
+}
+ 
+.item h3 {
+    margin: 10px 0 5px;
+    color: bisque;
+    font-size: 18px;
+}
+.item p {
+    color: #ccc;
+    font-size: 14px;
+}

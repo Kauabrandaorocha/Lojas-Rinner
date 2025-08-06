@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.caixa{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form [type]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.cheque{
+    margin-bottom: 15px;
+}
+
+.cheque label{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10%;
+}
+
+.cheque input[type="checkbox"]{
+    margin-bottom: 1%;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    accent-color: #04aa6d;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16x;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.termos{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.termos a:hover{
+    text-decoration: underline;
+}
