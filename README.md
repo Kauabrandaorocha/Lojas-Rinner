@@ -94,8 +94,8 @@ cd Lojas-Rinner
 
 ### 🤝 Contato / Contact
 
-👨‍💻 Desenvolvido por Kauã Brandão Rocha.
+👨‍💻 Desenvolvido por Kauã Brandão.
 📬 Caso queira contribuir ou sugerir melhorias, abra uma issue ou um pull request!
 
-👨‍💻 Developed by Kauã Brandão Rocha.
+👨‍💻 Developed by Kauã Brandão.
 📬 If you want to contribute or suggest improvements, feel free to open an issue or pull request!
